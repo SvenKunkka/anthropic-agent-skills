@@ -1,7 +1,12 @@
-> **Note:** This repository contains Anthropic's implementation of skills for Claude. For information about the Agent Skills standard, see [agentskills.io](http://agentskills.io).
+# Anthropic Agent Skills
 
-# Skills
-Skills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. Skills teach Claude how to complete specific tasks in a repeatable way, whether that's creating documents with your company's brand guidelines, analyzing data using your organization's specific workflows, or automating personal tasks.
+This repository is a public fork of [Anthropic's official Agent Skills repository](https://github.com/anthropics/skills). It contains reusable Claude skills, Claude Code plugin definitions, document-processing tools, skill-authoring examples, Claude API guidance, and the Agent Skills specification.
+
+> **Fork notice:** Anthropic and the respective contributors are the original authors. This fork may not always match the latest upstream revision; check [`anthropics/skills`](https://github.com/anthropics/skills) when you need the newest version.
+
+Skills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. They teach Claude how to complete repeatable workflows such as creating documents, following brand guidelines, analyzing data, testing web apps, and building MCP servers.
+
+For information about the open Agent Skills standard, see [agentskills.io](https://agentskills.io).
 
 For more information, check out:
 - [What are skills?](https://support.claude.com/en/articles/12512176-what-are-skills)
